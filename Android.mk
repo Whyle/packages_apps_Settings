@@ -26,7 +26,7 @@ LOCAL_MODULE_TAGS := optional
 
 LOCAL_SRC_FILES := \
         $(call all-java-files-under, src) \
-        $(call all-java-files-under, ../CandyCane/src)
+        $(call all-java-files-under, ../YuanweiosCane/src)
 
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     frameworks/support/v7/preference/res \
@@ -34,10 +34,10 @@ LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     frameworks/support/v7/appcompat/res \
     frameworks/support/v7/recyclerview/res
 
-LOCAL_RESOURCE_DIR += packages/apps/CandyCane/res
+LOCAL_RESOURCE_DIR += packages/apps/YuanweiosCane/res
 
 LOCAL_AAPT_FLAGS := --auto-add-overlay \
-      --extra-packages org.candyroms.candycane
+      --extra-packages org.yuanweiosroms.yuanweioscane
 
 LOCAL_PACKAGE_NAME := Settings
 LOCAL_CERTIFICATE := platform

@@ -134,11 +134,11 @@ import com.android.settingslib.drawer.DashboardCategory;
 import com.android.settingslib.drawer.SettingsDrawerActivity;
 import com.android.settingslib.drawer.Tile;
 
-import org.candyroms.candycane.CandyCane;
-import org.candyroms.candycane.fragments.FlingSettings;
-import org.candyroms.candycane.fragments.NavbarSettings;
-import org.candyroms.candycane.fragments.SmartbarSettings;
-import org.candyroms.candycane.fragments.PulseSettings;
+import org.yuanweiosroms.yuanweioscane.YuanweiosCane;
+import org.yuanweiosroms.yuanweioscane.fragments.FlingSettings;
+import org.yuanweiosroms.yuanweioscane.fragments.NavbarSettings;
+import org.yuanweiosroms.yuanweioscane.fragments.SmartbarSettings;
+import org.yuanweiosroms.yuanweioscane.fragments.PulseSettings;
 
 import java.net.URISyntaxException;
 import java.util.ArrayList;
@@ -366,7 +366,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             WifiInfo.class.getName(),
             MasterClear.class.getName(),
             NightDisplaySettings.class.getName(),
-            CandyCane.class.getName(),
+            YuanweiosCane.class.getName(),
             LightsSettings.class.getName(),
             NavbarSettings.class.getName(),
             FlingSettings.class.getName(),

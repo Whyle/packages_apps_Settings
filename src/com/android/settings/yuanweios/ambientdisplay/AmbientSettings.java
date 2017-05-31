@@ -17,7 +17,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.android.settings.candy.ambientdisplay;
+package com.android.settings.yuanweios.ambientdisplay;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -69,7 +69,7 @@ public class AmbientSettings extends SettingsPreferenceFragment implements
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.CANDYCANE;
+        return MetricsEvent.YUANWEIOSCANE;
     }
 
     @Override

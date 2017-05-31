@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2017 CandyRoms
+<!-- Copyright (C) 2017 YuanweiosRoms
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -15,15 +15,15 @@
         xmlns:settings="http://schemas.android.com/apk/res-auto"
         android:title="@string/about_settings">
 
-        <!--Candy header -->
-        <PreferenceScreen android:key="candy_header"
+        <!--Yuanweios header -->
+        <PreferenceScreen android:key="yuanweios_header"
               android:enabled="false"
-              android:layout="@layout/candy_header_about" />
+              android:layout="@layout/yuanweios_header_about" />
 
         <PreferenceScreen
-               android:key="about_candy"
-               android:fragment="com.android.settings.candy.CandyAbout"
-               android:title="@string/candy_menu_about" />
+               android:key="about_yuanweios"
+               android:fragment="com.android.settings.yuanweios.YuanweiosAbout"
+               android:title="@string/yuanweios_menu_about" />
 
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
@@ -104,15 +104,15 @@
                 settings:allowDividerAbove="true"
                 settings:allowDividerBelow="true"/>
 
-        <!-- Candy version -->
+        <!-- Yuanweios version -->
         <com.android.settings.DividerPreference
-                android:key="candy_version"
+                android:key="yuanweios_version"
                 android:enabled="false"
                 android:shouldDisableView="false"
                 android:selectable="false"
                 style="?android:preferenceInformationStyle"
-                android:title="@string/candy_version_title"
-                android:summary="@string/candy_version_default"
+                android:title="@string/yuanweios_version_title"
+                android:summary="@string/yuanweios_version_default"
                 settings:allowDividerAbove="true"
                 settings:allowDividerBelow="true"/>
 

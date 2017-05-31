@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2017 CandyRoms
+<!-- Copyright (C) 2017 YuanweiosRoms
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -12,10 +12,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- CandyCane -->
-    <string name="candycane_title">CandyCane</string>
-    <string name="header_category_candycane">Extra Options</string>
-    <string name="candycane_summary">Custom options for Candy</string>
+    <!-- YuanweiosCane -->
+    <string name="yuanweioscane_title">YuanweiosCane</string>
+    <string name="header_category_yuanweioscane">Characteristic Functions</string>
+    <string name="yuanweioscane_summary">Custom options for Yuanweios</string>
 
     <!-- General -->
     <string name="ok">Okay</string>
@@ -32,12 +32,12 @@
     <string name="profiles_add">Add...</string>
     <string name="profile_choose_app">Choose app</string>
 
-    <!-- CandyOTA -->
-    <string name="slimota_title">Candy Updates</string>
+    <!-- YuanweiosOTA -->
+    <string name="slimota_title">Yuanweios Updates</string>
 
-    <!-- About phone screen, Candy version -->
-    <string name="candy_version_title">Candy version</string>
-    <string name="candy_version_default">Unknown</string>
+    <!-- About phone screen, Yuanweios version -->
+    <string name="yuanweios_version_title">Yuanweios version</string>
+    <string name="yuanweios_version_default">Unknown</string>
 
     <!-- About phone screen, build date of ROM -->
     <string name="build_date">Build date</string>
@@ -263,11 +263,11 @@
     <string name="screenshot_sound_title">Screenshot sound</string>
 
     <!-- Changelog -->
-    <string name="changelog_candy_title">Changelog</string>
-    <string name="changelog_candy_error">Unable to load changelog</string>
+    <string name="changelog_yuanweios_title">Changelog</string>
+    <string name="changelog_yuanweios_error">Unable to load changelog</string>
 
-    <!-- About Candy -->
-    <string name="candy_menu_about">About Candy</string>
+    <!-- About Yuanweios -->
+    <string name="yuanweios_menu_about">About Yuanweios</string>
 
     <!-- Scramble PIN Layout on Lockscreen -->
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>

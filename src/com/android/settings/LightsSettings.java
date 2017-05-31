@@ -34,7 +34,7 @@ public class LightsSettings extends SettingsPreferenceFragment {
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.CANDYCANE;
+        return MetricsEvent.YUANWEIOSCANE;
     }
 
     @Override

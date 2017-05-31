@@ -23,8 +23,8 @@
 -keep class com.android.settings.display.NightDisplaySettings
 -keep class com.android.settings.preference.*
 
-# CandyCane
--keep class org.candyroms.candycane.**
+# YuanweiosCane
+-keep class org.yuanweiosroms.yuanweioscane.**
 
 # Keep click responders
 -keepclassmembers class com.android.settings.inputmethod.UserDictionaryAddWordActivity {

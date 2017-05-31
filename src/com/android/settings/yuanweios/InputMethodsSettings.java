@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.candy;
+package com.android.settings.yuanweios;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -59,7 +59,7 @@ public class InputMethodsSettings extends SettingsPreferenceFragment implements
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.CANDYCANE;
+        return MetricsEvent.YUANWEIOSCANE;
     }
 
     @Override
