@@ -214,6 +214,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
     private static final String PACKAGE_MIME_TYPE = "application/vnd.android.package-archive";
 
     private static final String TERMINAL_APP_PACKAGE = "com.android.terminal";
+    private static final String TERMINAL_APP_PACKAGE2 = "com.android.shell";
 
     private static final String KEY_CONVERT_FBE = "convert_to_file_encryption";
 
@@ -385,7 +386,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         }
         mAllPrefs.add(mClearAdbKeys);
         mEnableTerminal = findAndInitSwitchPref(ENABLE_TERMINAL);
-        if (!isPackageInstalled(getActivity(), TERMINAL_APP_PACKAGE)) {
+        if (!isPackageInstalled(getActivity(), TERMINAL_APP_PACKAGE) && !isPackageInstalled(getActivity(), TERMINAL_APP_PACKAGE2)) {
             debugDebuggingCategory.removePreference(mEnableTerminal);
             mEnableTerminal = null;
         }
@@ -2030,7 +2031,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
                         .show();
         } else if (preference == mEnableTerminal) {
             final PackageManager pm = getActivity().getPackageManager();
-            pm.setApplicationEnabledSetting(TERMINAL_APP_PACKAGE,
+            pm.setApplicationEnabledSetting(isPackageInstalled(getActivity(), TERMINAL_APP_PACKAGE) ? TERMINAL_APP_PACKAGE : TERMINAL_APP_PACKAGE2 ,
                     mEnableTerminal.isChecked() ? PackageManager.COMPONENT_ENABLED_STATE_ENABLED
                             : PackageManager.COMPONENT_ENABLED_STATE_DEFAULT, 0);
         } else if (preference == mKeepScreenOn) {
